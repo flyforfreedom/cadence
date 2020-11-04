@@ -78,3 +78,6 @@ require (
 	gopkg.in/validator.v2 v2.0.0-20180514200540-135c24b11c19
 	gopkg.in/yaml.v2 v2.2.2
 )
+
+// TODO https://github.com/uber/cadence/issues/2863
+replace github.com/jmoiron/sqlx v1.2.1-0.20200615141059-0794cb1f47ee => github.com/longquanzheng/sqlx v0.0.0-20191125235044-053e6130695c
